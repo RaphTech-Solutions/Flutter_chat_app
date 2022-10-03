@@ -27,7 +27,7 @@ class RoundedButton extends StatelessWidget {
           minWidth: 200.0,
           height: 42.0,
           child: Text(
-              buttonText
+              buttonText, style: TextStyle(color: Colors.white),
             //'Log In',
           ),
         ),
